@@ -1,0 +1,51 @@
+.env
+chroma_*
+chroma
+.DS_Store
+.rag-book-analyze-env/
+# Ignore virtual environments
+rag-book-analyze-env/
+env/
+venv/
+.myenv/
+conda_env/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore logs and local settings
+*.log
+*.out
+*.pid
+*.DS_Store
+
+# Ignore environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.secret
+
+# Ignore dependency management files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore ChromaDB local storage (if using persistent mode)
+chroma_db/
+
+# Ignore Markdown cache (if using unstructured markdown processing)
+*.md.cache
+
+# Ignore __pycache__ inside any directory
+**/__pycache__/
